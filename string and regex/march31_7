@@ -1,0 +1,13 @@
+    use strict;
+    use warnings;
+    my $string1="rohan";
+    my $string2="rohan";
+    if($string1 eq $string2)
+    {
+      print"matched\!\!\!\n";
+    }
+    else
+    {
+      print "not matched\!\!\!\n";
+    }
+   

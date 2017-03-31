@@ -1,0 +1,15 @@
+      
+
+
+     print "finding match in the string\!\n";
+     my $var="this is lamb of god";
+     if($var=~/lamb/)
+{
+    print"matched\n";
+ }
+else 
+{
+ print "not match\n";
+}
+
+ 

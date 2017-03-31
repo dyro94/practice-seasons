@@ -1,0 +1,8 @@
+      
+   print "single vs double quote\n";
+   my $user='rohan';
+   print 'hello $user welcome to our site\n';
+   
+   my $day="today";
+   print ="hello\! $user welcome to our site $day\n";
+   

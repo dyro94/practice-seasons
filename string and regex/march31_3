@@ -1,0 +1,7 @@
+    use strict;
+    use warnings;
+    print "\"embedd string into bigger string\"\n";
+    my $first="rohan";
+    my $second="ghosh";
+    print"$first$second\n";
+

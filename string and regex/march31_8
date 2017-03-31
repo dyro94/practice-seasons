@@ -1,0 +1,3 @@
+   my $string="my name is rohan";
+   print "string length:". length($string)."\n";
+

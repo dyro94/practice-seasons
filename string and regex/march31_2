@@ -1,0 +1,6 @@
+      use strict;
+      use warnings;
+      my $input="rohan";
+     my $output=$input x 3;
+      print "$output\n";
+
