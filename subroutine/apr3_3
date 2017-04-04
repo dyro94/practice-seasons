@@ -1,0 +1,10 @@
+     use strict;
+     use warnings;
+     print "passing list in subroutine..\n";
+     sub disp{
+      my @list=@_;
+      print "list is :@list\n";
+       }
+      my @a=(100,200,300,400);
+      disp(@a);
+

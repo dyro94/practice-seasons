@@ -1,0 +1,10 @@
+       use strict;
+       use warnings;
+       my $str="AEIOU";
+        sub rohan{
+
+       my  $str="aaaaabbbbccccdddd";
+        print"local variable:$str\n";
+        }
+       rohan();
+      print "global variable:$str\n";

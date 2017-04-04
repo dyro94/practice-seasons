@@ -1,0 +1,19 @@
+    use warnings;
+    use strict;
+    
+    sub Hash {
+              my( %hash)=@_;
+              foreach my $key(keys%hash)
+             {
+              my $value=$hash{$key};
+               print "$key:$value\n";
+             
+             }
+             }
+        my  %hash=("rohit"=>"meti","rohan"=>"ghosh","tapan"=>"das");
+         
+        Hash(%hash);
+   
+
+  
+     

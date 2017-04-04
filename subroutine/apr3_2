@@ -1,0 +1,11 @@
+ use strict;
+ use warnings;
+ my $dimensionPerimiter=perimiter(25);
+print "result:$dimensionPerimiter\n";
+ 
+  sub perimiter {
+       my  $dimension=$_[0];
+         return (4*$dimension);
+       } 
+  
+
